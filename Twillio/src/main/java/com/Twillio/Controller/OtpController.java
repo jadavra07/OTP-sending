@@ -29,5 +29,8 @@ public class OtpController {
         int otp = 100_000 + random.nextInt(900_000);
         return String.valueOf(otp);
     }
+    public void test(){
+   
+    }
 }
 
